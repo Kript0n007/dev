@@ -1,1 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 
+body{
+	background-color:gray;
+	
+}
+
+[name="menu"] #menu-style{
+	width:100%;
+	text-align:right;
+}
+
+[name="menu"] .botoes-menu{
+	background-color:green;
+	color:white;
+	position: relative;
+	display: inline-block;
+	padding:10px;
+	font-size:20px;
+	border:none;
+	font-family:montserrat;
+	font-weight:bold;
+	margin-right:35px;
+}
+ /* essas classes com before e after sao da estilizacao pra fazer os botoes do menu ficarem inclinados*/
+[name="menu"] .botoes-menu:before, .botoes-menu:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  top: 0px;
+  position: absolute;
+}
+
+[name="menu"] .botoes-menu:before {
+  border-top: 44.5px solid transparent;
+  border-right: 11px solid green;
+  left: -11px;
+}
+
+[name="menu"] .botoes-menu:after {
+  border-bottom: 45px solid transparent;
+  border-left: 11px solid green;
+  right: -11px;
+}
+
+[name="secao-texto-apresentacao"] .texto-apresentacao{
+	position: relative; 
+	z-index: 10;
+	margin-top:40px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:25%;
+	width:50%;
+	
+}
+/*isso faz aquela div verde q fica o texto ficar transparente, pra aparecer um pouco das imagens do background, q por enquanto nao tem*/
+[name="secao-texto-apresentacao"] .fundo-transparente{
+	background-color: green; 
+	border-radius:30px;
+	position:absolute; 
+	z-index:-1; 
+	top:0; 
+	left:0; 
+	right: 0; 
+	bottom:0; 
+	opacity:0.3;
+}
+
+[name="secao-texto-apresentacao"] .paragrafo-texto{
+	color:white;
+	font-family:montserrat;
+	font-size:21;
+	text-align:justify;
+	
+}
+/*tentei deixar a imagem responsiva mas sem mt sucesso, inclusive essa imagem aí é só um print, entao se achar a imagem certinha em png, troca tbm*/
+[name="secao-texto-apresentacao"] .logo-devscore{
+	width:auto;
+	height:auto;
+    max-width:614px;
+    max-height:80px;
+	
+}
+
+/*corpo do index, nao achei a imagem de background dai deixei um azul escuro, mas se tu achar é so colocar*/
+.corpo-index{
+	padding-top:100px;
+	margin-left:-10px;
+	width:100vw;
+	margin-top:10px;
+	text-align:center;
+	background-color:#0E1024;
+	padding-bottom:50px;
+}
