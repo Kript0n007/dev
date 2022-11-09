@@ -13,12 +13,12 @@ body {
 .alinhamento_btn{
     
     position: relative;
-    float: left;
+    float: right;
     border: 3px solid white;
     display: flex;
-    
+    margin-top: auto;
     justify-content: flex-end;
-    width: 20%;
+    width: 15%;
     
   }
   .style_btns {
