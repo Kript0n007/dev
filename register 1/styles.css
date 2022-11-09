@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+
 *{
   margin: 0%;
   padding: 0%;
@@ -8,16 +9,42 @@
 
 body {
     background-image: url("../background.png");
-     
+    
   }
 .logo{
+  border: 3px solid red;
   display: flex;
-
-  margin-left: 400px;
   margin-top: 100px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.img_logo{
+  display: flex;
+  width: 500px;
+  height:100px;
+  justify-content: flex-end;
+ 
+}
+.alinhamento_img{
+  position: relative;
+  float: left;
+  border: 3px solid red;
+  width: 70%;
+  justify-content: flex-end;
+}
+.alinhamento_btn{
+  position: relative;
+  float: left;
+  border: 3px solid white;
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+  
+  
 }
 
-.style.btns {
+
+.style_btns {
   background-color: rgb(11, 134, 21);
   color: aliceblue;
   box-shadow: 2px 2px 5px black;
@@ -27,40 +54,51 @@ body {
   border-bottom-left-radius: 5px;
   border-width: 0px;
   height: 40px;
-    width: 100px;
-    font-family: 'Fredoka One', cursive;
- 
+  width: 100px;
+  font-family: 'Fredoka One', cursive;
+  justify-content: flex-end;
+  align-items: center;
+  
+
 } 
 .btns1{
   margin-left: 125px;
-    margin-top: 15px;
+  margin-top: 15px;
+  
 }
-
-.teladefundo{
+.alinhar{
   display: flex;
+  border: 5px solid white;
+  justify-content: center;
+}
+.teladefundo{
   background-color: rgb(44, 12, 96);
   box-shadow: 3px 3px 6px black;
-position: relative;
+  border: 3px solid red;
   height: 300px;
   width: 600px;
-  margin-left: 550px;
-  margin-top: 200px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
 }
 
 
 .cadastro-1{
   background-color: grey;
   position: relative; 
-  float:left;
-  margin-left: 50px;
+  float: left;
+  border: 3px solid red;
   
-  margin-top: 100px;
-  border-top-left-radius: 50px;
+  
 }
 .cadastro-2{
   background-color: grey;
   position: relative; 
-  float:left;
-  margin-left: 50px;
+  float: left;
+  border: 3px solid red;
+  
   
 }
