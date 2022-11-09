@@ -1,22 +1,43 @@
-body {
-    background-image: url("../background.png");
-  }
-logo{
-  align-items: center;
+*{
+  margin: 0%;
+  padding: 0%;
 }
 
-.btn {
-  border-bottom: 0;
-  padding: 10px;
-  transition: background .3s;
-  border-radius: 5px;
-  border-color: green;
+body {
+    background-image: url("../background.png");
+     
+  }
+.logo{
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.style.btns {
+  background-color: rgb(11, 134, 21);
+  color: aliceblue;
+  box-shadow: 2px 2px 5px black;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-width: 0px;
+  height: 40px;
+  width: 100px;
+ 
 } 
+.btns1{
+  margin-left: 1000px;
+  margin-top: 0px;
+}
+
 .teladefundo{
-  width:200px;
-  height:150px;
-  border: 25px solid;
-  border-color: gray;
+  background-color: rgb(44, 12, 96);
+  box-shadow: 3px 3px 6px black;
+position: relative;
+  height: 300px;
+  width: 600px;
+  margin-left: 550px;
+  margin-top: 200px;
 }
 
 
@@ -24,11 +45,15 @@ logo{
   background-color: grey;
   position: relative; 
   float:left;
-  align-items: center;
+  margin-left: 50px;
+  
+  margin-top: 100px;
+  border-top-left-radius: 50px;
 }
 .cadastro-2{
   background-color: grey;
   position: relative; 
   float:left;
-  align-items: center;
+  margin-left: 50px;
+  
 }
