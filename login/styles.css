@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.backy {
+  background-image: url(../background.png);
+}
+
+.row-1 {
+  display: flex;
+  border: 2px solid red;
+}
+
+.imagemlogo {
+  width: 350px;
+  border: 2px solid blue;
+}
+
+.box-imagemlogo {
+  width: 250px;
+  height: min-content;
+}
+
+.box {
+  display: flex;
+  margin-left: 80px;
+  border: 2px solid blue;
+}
+
+.box-1 {
+  background-color: rgb(38, 7, 77);
+  box-shadow: 8px 8px green;
+  width: 500px;
+  height: 480px;
+  border: 2px solid yellow;
+
+}
+
+.pos-user-pass {
+  display: flex;
+  justify-content: flex-start;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.username {
+  color: white;
+  font-size: 15px;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.user-info {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bar-design {
+  background-color:rgb(141, 168, 193);
+  border-radius: 25px;
+  border-width: 0px;
+  width: 300px;
+  height: 50px;
+}
+
+.in-user{
+  padding-left: 15px;
+}
+
+.in-pass{
+  padding-left: 15px;
+}
+
+.password {
+  color: white;
+  font-size: 15px;
+  font-family: 'Share Tech', sans-serif;
+}
+
+.btns {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.style_btns {
+  background-color: rgb(7, 110, 15);
+  color: aliceblue;
+  box-shadow: 2px 2px 5px black;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-width: 0px;
+  height: 40px;
+  width: 100px;
+}
+
+.btns-2{
+  margin-left: 100px;
+}
+
+.iforgot {
+  color: aliceblue;
+  font-size: 15px;
+}
+
+@media (min-width:300px) and (max-width:700px){
+    
+    .row-1{
+        display: block;
+    }
+
+}
