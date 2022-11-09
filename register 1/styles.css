@@ -16,13 +16,13 @@ body {
   display: flex;
   margin-top: 100px;
   align-items: center;
-  justify-content: flex-end;
+  
 }
 .img_logo{
   display: flex;
-  width: 500px;
+  width: 550px;
   height:100px;
-  justify-content: flex-end;
+  
  
 }
 .alinhamento_img{
@@ -30,7 +30,9 @@ body {
   float: left;
   border: 3px solid red;
   width: 70%;
+  display: flex;
   justify-content: flex-end;
+ 
 }
 .alinhamento_btn{
   position: relative;
@@ -91,7 +93,7 @@ body {
   position: relative; 
   float: left;
   border: 3px solid red;
-  
+ 
   
 }
 .cadastro-2{
