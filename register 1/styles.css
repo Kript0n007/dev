@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
 *{
   margin: 0%;
   padding: 0%;
@@ -8,6 +11,8 @@ body {
      
   }
 .logo{
+  display: flex;
+
   margin-left: 400px;
   margin-top: 100px;
 }
@@ -22,15 +27,17 @@ body {
   border-bottom-left-radius: 5px;
   border-width: 0px;
   height: 40px;
-  width: 100px;
+    width: 100px;
+    font-family: 'Fredoka One', cursive;
  
 } 
 .btns1{
-  margin-left: 1000px;
-  margin-top: 0px;
+  margin-left: 125px;
+    margin-top: 15px;
 }
 
 .teladefundo{
+  display: flex;
   background-color: rgb(44, 12, 96);
   box-shadow: 3px 3px 6px black;
 position: relative;
