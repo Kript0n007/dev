@@ -10,12 +10,10 @@
 
 .row-1 {
   display: flex;
-  border: 2px solid red;
 }
 
 .imagemlogo {
   width: 350px;
-  border: 2px solid blue;
 }
 
 .box-imagemlogo {
@@ -26,7 +24,6 @@
 .box {
   display: flex;
   margin-left: 80px;
-  border: 2px solid blue;
 }
 
 .box-1 {
@@ -34,8 +31,6 @@
   box-shadow: 8px 8px green;
   width: 500px;
   height: 480px;
-  border: 2px solid yellow;
-
 }
 
 .pos-user-pass {
