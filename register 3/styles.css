@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+
+body {
+    background-image: url("../background.png");
+    
+  }
+
+  .fundo{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  
+
+  .habilidades{
+    background-color: rgb(78, 12, 139);;
+    align-items: center;
+    display: flex;
+    border: 2px solid red;
+    height: 350px;
+    width: 700px;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+  }
+  .titulo{
+    
+    text-align: center;
+    font-size: 3em;
+    margin-top: -50px;
+    padding: 0% 0% 0% 0%;
+}
+  .btns1{
+    border: 2px solid rgb(255, 0, 204);
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10%;
+    border-width: 0px;
+    height: 35px;
+    width: 200px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    display: flex;
+    
+  }
+  .botao1{
+    border: 3px solid red;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10%;
+    border-width: 0px;
+    height: 25px;
+    width: 100px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    border-radius: 10%; 
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .botao2{
+    border: 2px solid blue;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10%;
+    border-width: 0px;
+    height: 25px;
+    width: 100px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    border-radius: 10%; 
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .btns2{
+    border: 2px solid rgb(0, 255, 225);
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10%;
+    border-width: 0px;
+    height: 35px;
+    width: 200px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    display: flex;
+
+
+
+  }
+  .btns3{
+    background-color: rgb(78, 12, 139);
+
+  }
