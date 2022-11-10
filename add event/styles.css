@@ -6,18 +6,16 @@
 }
 .backy{
   background-image: url(../background.png);
-    z-index: -2;
 }
 .bar{
+  position: fixed;
   box-shadow: 3px 3px 20px;
-  position: sticky;
   background-color: rgb(27, 15, 65);
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
   width: 100%;
-  z-index:3;
 }
 .logo{ 
   width: 20vw;
@@ -42,7 +40,6 @@
   width: 15vw;
   height: 6.5vh;
   background-color: #563d85;
-  color: aliceblue;
   padding-left: 15px;
   border-radius: 20px;
 }
@@ -56,7 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height:440px;
+  height:500px;
 }
 .box{
   display: flex;
@@ -67,17 +64,18 @@
   height:400px;
   width:65vw;
   box-shadow: 3px 3px 20px;
-  z-index:-1;
 }
 .corpo-2{
-  height:65px;
+  display: flex;
+  align-items: flex-end;
+  height:85px;
 }
 .text{
   font-size: 1.6vw;
   font-family: 'Kanit', sans-serif;
   color: aliceblue;
 }
-.inputs{
+.inpt{
   border-radius: 15px;
   height: 40px;
   background-color: #ac8de4;
@@ -110,7 +108,8 @@
   flex-direction: column;
   width: 25vw;
 }
-.input-general-description{
+.inpt-general-description{
+  text-align: flex-start ;
   height:300px;
   width: 22vw;
   border-radius: 20px;
