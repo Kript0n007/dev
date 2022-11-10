@@ -7,7 +7,104 @@
   padding: 0%;
 }
 
+
 body {
     background-image: url("../background.png");
     
+  }
+
+  .fundo{
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  
+
+  .habilidades{
+    background-color: rgb(78, 12, 139);;
+    display: flex;
+    border: 2px solid red;
+    height: 350px;
+    width: 700px;
+    justify-content: center;
+    
+    
+    
+    
+  }
+  .arrumando{
+    border: 2px solid yellow;
+    width: 100%;
+    height: 30px;
+    display: flex;
+  }
+  .titulo{ 
+    justify-content: center;
+}
+  .btns1{
+    border: 2px solid rgb(255, 0, 204);
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10%;
+    border-width: 0px;
+    height: 35px;
+    width: 200px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    display: flex;
+    align-items: center;
+    
+  }
+  .botao1{
+    display: flex;
+    border: 3px solid rgb(26, 246, 70);
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10%;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    border-radius: 10%; 
+    
+    justify-content: center;
+    
+  }
+  .botao2{
+    border: 2px solid blue;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    border-radius: 10%; 
+    
+    justify-content: center;
+    display: flex;
+  }
+  
+  .btns2{
+    border: 2px solid rgb(0, 255, 225);
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10%;
+    border-width: 0px;
+    height: 35px;
+    width: 200px;
+    font-family: 'Fredoka One', cursive;
+    color: black;
+    display: flex;
+    align-items: center;
+
+
+
+  }
+  .btns3{
+    background-color: rgb(78, 12, 139);
+
+  }
+
+  .alinhamento_hab{
+    border: 2px solid rgb(226, 226, 42);
+    align-items: center;
+    margin-top: 40px;
   }
