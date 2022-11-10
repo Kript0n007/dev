@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.backy{
+  background-image: url(../background.png);
+    z-index: -2;
+}
+.bar{
+  box-shadow: 3px 3px 20px;
+  position: sticky;
+  background-color: rgb(27, 15, 65);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  z-index:3;
+}
+.logo{ 
+  width: 20vw;
+  height: 7vh;
+  margin-left: -10px;
+}
+.homepage{
+  color: aliceblue;
+  font-size: 2vw;
+  font-family: 'Orbitron', sans-serif;
+}
+.profile{
+  color: aliceblue;
+  font-size:2vw;
+  font-family: 'Orbitron', sans-serif;
+}
+.search-icon{
+  height: 4vh;
+  margin-right: -6.8vw;
+}
+.search-bar{
+  width: 15vw;
+  height: 6.5vh;
+  background-color: #563d85;
+  color: aliceblue;
+  padding-left: 15px;
+  border-radius: 20px;
+}
+.menu-border{
+    margin-right:10px;
+}
+.menu{
+  height: 5vh;
+}
+.corpo-1{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height:440px;
+}
+.box{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  background-color: rgb(35, 27, 62);
+  border-radius: 30px;
+  height:400px;
+  width:65vw;
+  box-shadow: 3px 3px 20px;
+  z-index:-1;
+}
+.corpo-2{
+  height:65px;
+}
+.text{
+  font-size: 1.6vw;
+  font-family: 'Kanit', sans-serif;
+  color: aliceblue;
+}
+.inputs{
+  border-radius: 15px;
+  height: 40px;
+  background-color: #ac8de4;
+}
+.clm-1{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-bottom: 30px;
+  width: 19vw;
+  padding-left: 5px;
+}
+.add-image{
+  background-color: #8342fb;
+  border-radius: 20px;
+  width:18vw;
+  height:250px;
+}
+.clm-2{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20vw;
+}
+.clm-3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25vw;
+}
+.input-general-description{
+  height:300px;
+  width: 22vw;
+  border-radius: 20px;
+  padding-left: 15px;
+  background-color: #ac8de4;
+}
+.corpo-2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.style-btns{
+  height: 8vh;
+  width: 20vw;
+  box-shadow: 4px 4px #6c29e7;
+  background-color:rgb(30, 20, 58);
+  color: aliceblue;
+  border-radius: 25px;
+  font-size: 2vw;
+  font-family: 'Kanit', sans-serif;
+}
+.pos-text{
+margin-bottom: -60px;
+}
+@media screen and (max-width:700px){
+.bar{
+    display:flex;
+}
+}
