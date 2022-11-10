@@ -16,7 +16,7 @@ body {
     float: right;
     border: 3px solid white;
     display: flex;
-    margin-top: auto;
+    margin-top: -5%;
     justify-content: flex-end;
     width: 15%;
     
