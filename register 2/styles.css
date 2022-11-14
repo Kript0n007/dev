@@ -6,6 +6,11 @@
 margin: 0%;
 padding: 0%;
 }
+input::placeholder{
+  background-color: gray;
+  color: black;
+ 
+}
 
 body {
     background-image: url("../background.png");
@@ -53,5 +58,6 @@ display: flex;
 border: 2px solid red;
 flex-direction: row-reverse;
 justify-content: center;
+
 
 }

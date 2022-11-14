@@ -126,3 +126,21 @@ input::placeholder{
 
 }
 
+.avancar{
+  border: 2px solid green;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  
+}
+a{
+  color: white;
+background-color: rgb(11, 134, 21);
+justify-content: center;
+width: 550px;
+height: 70px;
+font-family: 'Fredoka One', cursive;
+font-size: 45px;
+display: flex;
+color: rgb(11, 134, 21);
+}
