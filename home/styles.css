@@ -8,13 +8,49 @@ body {
 }
 
 header {
+    background-color: #33334A;
     color: azure;
     display: flex;
     height: 60px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
-    scale: .3;
-    left: ;
+    width: 250px;
+}
+
+.textos {
+    display: flex;
+    gap: 40px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search input {
+    color: gray;
+    background-color: #0E132C;
+    border-radius: 5%;
+    height: 2rem;
+}
+
+button {
+    border-radius: 50%;
+    float: left;
+    width: 40px;
+    padding: 10px;
+    background: #0E132C;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: green;
 }
